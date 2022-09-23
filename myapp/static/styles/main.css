@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    background-color: black;
+    color: whitesmoke;
+
+    font-style: italic;    
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: blanchedalmond;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card a {
+    color: black;
+}

@@ -1,0 +1,12 @@
+{% extends 'layout/nav.html' %}
+
+{% block content %}
+
+    <h1>Create New Project</h1>
+    <form class="container" action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Save</button>
+    </form>
+
+{% endblock %}

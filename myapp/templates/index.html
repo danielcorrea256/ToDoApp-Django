@@ -1,0 +1,11 @@
+{% extends 'layout/nav.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <title>{{ title }}</title>
+    <h1>Welcome to django App</h1>
+    <img src="{% static 'meme.jpg'%}" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae accusantium blanditiis, aut atque, deleniti consequatur reiciendis maxime iste sit officia laboriosam at inventore aperiam quos impedit! Cupiditate, ducimus est.</p>
+{% endblock %}
